@@ -1,0 +1,56 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Archivos de Python (caché)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Archivos de datos grandes (NO subir archivos RAW o logs)
+*.log
+*.tmp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuraciones de editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de entorno
+.env
+.env.local
+
+# Archivos de cobertura de pruebas
+.coverage
+htmlcov/
+
+# ARCHIVOS QUE QUEREMOS SUBIR (exceptuar)
+# NOTA: No subir datos crudos, pero SÍ subir los procesados y el modelo
+
+# NO subir datos originales
+datos_raw.csv
+
+# NO subir archivos CSV genéricos (pero excepciones abajo)
+*.csv
+!datos_finales_con_id.csv
+
+# NO subir archivos PKL genéricos (pero excepciones abajo)
+*.pkl
+!pipeline_churn.pkl
+
+# NO subir archivos PBIX genéricos (pero excepciones abajo)
+*.pbix
+!dashboard/Operacion_Rescate_Churn.pbix
+
+# Subir todas las imágenes (PNG, JPG)
+!*.png
+!*.jpg
