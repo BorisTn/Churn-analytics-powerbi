@@ -94,8 +94,8 @@ Haz push a la rama (git push origin feature/mejora).
 Abre un Pull Request.
 
 📬 Contacto
-[Tu Nombre] - Data Analyst
-📧 [tu-email@ejemplo.com]
+[Boris Alvarez] - Data Analyst
+📧 [boris.alvarez321@gmail.com]
 🔗 [LinkedIn - /in/tu-usuario]
 💼 [Sitio Web / Portafolio]
 
